@@ -19,12 +19,8 @@ $this->registerJsFile('http://localhost:1337/secondWidget.js');
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-6">
-                <div id="first-root"></div>
-            </div>
-            <div class="col-lg-6">
-                <div id="second-root"></div>
-            </div>
+            <div id="first-root" class="col-lg-6"></div>
+            <div id="second-root" class="col-lg-6"></div>
         </div>
 
     </div>
